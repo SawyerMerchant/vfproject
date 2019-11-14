@@ -1,0 +1,23 @@
+{
+  "name": "sawyer_voicefoundry_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "@auth0/s3": "^1.0.0",
+    "csv-parse": "^4.6.5",
+    "csv-writer": "^1.5.0",
+    "csvtojson": "^2.0.10",
+    "faker": "^4.1.0",
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-offline": "^5.12.0"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Sawyer",
+  "license": "ISC"
+}
